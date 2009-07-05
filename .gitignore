@@ -3,6 +3,7 @@ tmp/*
 db/schema.rb
 config/deploy.rb
 config/deploy
+config/facebooker.yml
 config/database.yml
 .DS_Store
 ._*
