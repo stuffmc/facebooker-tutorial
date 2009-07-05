@@ -1,6 +1,6 @@
 class AjaxController < ApplicationController     
 	ensure_authenticated_to_facebook :except => [:test , :update_test,:update_ajax ]
-	protect_from_forgery :secret => '2kdjnaLI8'
+	#protect_from_forgery :secret => '2kdjnaLI8'
 	
 	def update_ajax   
 		 logger.debug("Called update ajax.")  

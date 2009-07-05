@@ -61,6 +61,8 @@ Rails::Initializer.run do |config|
   
   config.gem "coderay"
   
+  config.action_controller.allow_forgery_protection = false
+  
 end   
 
 ExceptionNotifier.exception_recipients = %w(digidigo@gmail.com)
