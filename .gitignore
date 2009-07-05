@@ -5,5 +5,6 @@ config/deploy.rb
 config/deploy
 config/facebooker.yml
 config/database.yml
+public/stylesheets/all.css
 .DS_Store
 ._*
