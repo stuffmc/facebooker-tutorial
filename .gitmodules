@@ -1,9 +1,9 @@
-[submodule "vendor/plugins/tra-spawn"]
-	path = vendor/plugins/tra-spawn
+[submodule "vendor/plugins/spawn"]
+	path = vendor/plugins/spawn
 	url = git://github.com/tra/spawn.git
-[submodule "vendor/plugins/mmangino-facebooker"]
-	path = vendor/plugins/mmangino-facebooker
+[submodule "vendor/plugins/facebooker"]
+	path = vendor/plugins/facebooker
 	url = git://github.com/mmangino/facebooker.git
-[submodule "vendor/plugins/rails-exception_notification"]
-	path = vendor/plugins/rails-exception_notification
+[submodule "vendor/plugins/exception_notification"]
+	path = vendor/plugins/exception_notification
 	url = git://github.com/rails/exception_notification.git
