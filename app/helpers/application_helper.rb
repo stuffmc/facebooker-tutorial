@@ -1,8 +1,3 @@
-
-# Methods added to this helper will be available to all templates in the application.
-require 'rubygems'
-require 'coderay'
-
 module ApplicationHelper
 
    def highlight_file(file, type = :ruby)

@@ -1,6 +1,6 @@
 <meta id="verify-v1" name="verify-v1" content="iuqr0ZdqPcfDbpULolOaRMBA+kKHnDWTjPh8PVULR4k=" />
 
-<link href="http://digidigo.selfip.net:8888/stylesheets/all.css?1224606030" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://facebookertutorial.professionalnerd.com:3000/stylesheets/all.css?1246466531" media="screen" rel="stylesheet" type="text/css" />
 
 
 
@@ -9,29 +9,29 @@
 
 <div id="header">
 	<ul>
-		<li> <a href="http://apps.new.facebook.com/fbtt_dev/outline">Outline</a> </li>
-		<li><a href="http://apps.new.facebook.com/fbtt_dev/feedback">Feedback</a> </li>
-		<li><a href="http://apps.new.facebook.com/fbtt_dev/facebooker_apps">Gallery</a> </li>
+		<li> <a href="http://apps.facebook.com//arsebooker_tutorial/outline">Outline</a> </li>
+		<li><a href="http://apps.facebook.com//arsebooker_tutorial/feedback">Feedback</a> </li>
+		<li><a href="http://apps.facebook.com//arsebooker_tutorial/facebooker_apps">Gallery</a> </li>
                
 	</ul> 		
 </div>	
 <div>
-	<h1> <img alt="Fbtt" height="40" src="http://digidigo.selfip.net:8888/images/fbtt.png?1202251915" width="40" /> <span>Facebooker Tutorial</span> </h1>  
+	<h1> <img alt="Fbtt" height="40" src="http://facebookertutorial.professionalnerd.com:3000/images/fbtt.png?1246466531" width="40" /> <span>Facebooker Tutorial</span> </h1>  
 
     
     	
     <fb:tabs>  
-	   <fb:tab-item href="/fbtt_dev/" selected="true" title="Getting Started" />
-<fb:tab-item href="/fbtt_dev/fbml/tabs" selected="false" title="FBML" />
-<fb:tab-item href="/fbtt_dev/messaging/mini_feed" selected="false" title="Publisher" />
-<fb:tab-item href="/fbtt_dev/ads/google" selected="false" title="Ads" />  
+	   <fb:tab-item href="//arsebooker_tutorial/" selected="true" title="Getting Started" />
+<fb:tab-item href="//arsebooker_tutorial/fbml/tabs" selected="false" title="FBML" />
+<fb:tab-item href="//arsebooker_tutorial/messaging/mini_feed" selected="false" title="Publisher" />
+<fb:tab-item href="//arsebooker_tutorial/ads/google" selected="false" title="Ads" />  
     </fb:tabs>      
   
 </div>  
  
 
   
-<div class="next_lesson"><span>Next Lesson &rarr; <a href="/fbtt_dev/getting_started/user_logs_in_to_facebook">Make User Login</a></span></div> 
+<div class="next_lesson"><span>Next Lesson &rarr; <a href="//arsebooker_tutorial/getting_started/user_logs_in_to_facebook">Make User Login</a></span></div> 
 
 <h2> 1.1) Getting Started </h2> 
 
@@ -62,7 +62,7 @@
 	Setup your application on <a href="http://www.facebook.com/developers/editapp.php?new" target="fb_tut_external">Facebook</a>.
 	<p class="descriptive_text">
 		This should take you to the new app page. 
-		<img alt="Add_application" src="http://digidigo.selfip.net:8888/images/getting_started/add_application.jpg?1201469863" /> 
+		<img alt="Add_application" src="http://facebookertutorial.professionalnerd.com:3000/images/getting_started/add_application.jpg?1246466531" /> 
 		<ul>     
 			<li> Enter in Your Application Name.  This name will appear anywhere your application mentioned. </li>
 			<li> Enter in you Callback URL.  Make this the base URL of your server. <em> Note: For FBML apps, like this one, the url must be web accessible.</em></li>
@@ -108,40 +108,74 @@
 </tt>31<tt>
 </tt>32<tt>
 </tt>33<tt>
+</tt>34<tt>
+</tt>35<tt>
+</tt>36<tt>
+</tt>37<tt>
+</tt>38<tt>
+</tt>39<tt>
+</tt><strong>40</strong><tt>
+</tt>41<tt>
+</tt>42<tt>
+</tt>43<tt>
+</tt>44<tt>
+</tt>45<tt>
+</tt>46<tt>
+</tt>47<tt>
+</tt>48<tt>
+</tt>49<tt>
+</tt><strong>50</strong><tt>
 </tt></pre></td>
   <td class="code"><pre ><span class="c"># File: config/facebooker-mock.yml</span><tt>
 </tt><span class="c"># The api key, secret key, and canvas page name are required to get started</span><tt>
 </tt><span class="c"># Tunnel configuration is only needed if you are going to use the facebooker:tunnel Rake tasks</span><tt>
 </tt><span class="c"># Your callback url in Facebook should be set to http://public_host:public_port</span><tt>
+</tt><span class="c"># If you're building a Facebook connect site, </span><tt>
+</tt><span class="c">#    change the value of set_asset_host_to_callback_url to false</span><tt>
+</tt><span class="c"># To develop for the new profile design, add the following key..</span><tt>
+</tt><span class="c"># api: new</span><tt>
+</tt><span class="c"># remove the key or set it to anything else to use the old facebook design.</span><tt>
+</tt><span class="c"># This should only be necessary until the final version of the new profile is released.</span><tt>
 </tt><tt>
 </tt>development:<tt>
-</tt> api_key: <span class="i">442</span>c6504bd2362d8a7fba7303cd583ca <tt>
-</tt> secret_key: <span class="co">XXXXXXXXXXXXX</span><tt>
-</tt> canvas_page_name: facebooker_tutorial    <tt>
-</tt> callback_url: http<span class="sy">:/</span>/staging.travelerstable.com:<span class="i">8888</span><tt>
-</tt> tunnel:<tt>
-</tt>     public_host_username: fooberryfoo <tt>
-</tt>     public_host: staging.travelerstable.com<tt>
-</tt>     public_port: <span class="i">8888</span><tt>
-</tt>     local_port: <span class="i">3000</span>    <tt>
-</tt>test:<tt>
 </tt>  api_key: <tt>
 </tt>  secret_key: <tt>
-</tt>  canvas_page_name: <tt>
+</tt>  canvas_page_name:<tt>
+</tt>  callback_url:<tt>
+</tt>  pretty_errors: <span class="pc">true</span><tt>
+</tt>  set_asset_host_to_callback_url: <span class="pc">true</span><tt>
 </tt>  tunnel:<tt>
 </tt>    public_host_username: <tt>
 </tt>    public_host: <tt>
 </tt>    public_port: <span class="i">4007</span><tt>
 </tt>    local_port: <span class="i">3000</span><tt>
-</tt>production:<tt>
+</tt>    server_alive_interval: <span class="i">0</span><tt>
+</tt><tt>
+</tt>test:<tt>
 </tt>  api_key: <tt>
 </tt>  secret_key: <tt>
 </tt>  canvas_page_name: <tt>
+</tt>  callback_url:<tt>
+</tt>  set_asset_host_to_callback_url: <span class="pc">true</span><tt>
 </tt>  tunnel:<tt>
 </tt>    public_host_username: <tt>
 </tt>    public_host: <tt>
 </tt>    public_port: <span class="i">4007</span><tt>
-</tt>    local_port: <span class="i">3000</span> <tt>
+</tt>    local_port: <span class="i">3000</span><tt>
+</tt>    server_alive_interval: <span class="i">0</span><tt>
+</tt><tt>
+</tt>production:<tt>
+</tt>  api_key: <tt>
+</tt>  secret_key: <tt>
+</tt>  canvas_page_name: <tt>
+</tt>  callback_url: <tt>
+</tt>  set_asset_host_to_callback_url: <span class="pc">true</span>   <tt>
+</tt>  tunnel:<tt>
+</tt>    public_host_username: <tt>
+</tt>    public_host: <tt>
+</tt>    public_port: <span class="i">4007</span><tt>
+</tt>    local_port: <span class="i">3000</span><tt>
+</tt>    server_alive_interval: <span class="i">0</span><tt>
 </tt></pre></td>
 </tr></table>
 </div>
@@ -302,11 +336,11 @@
 	Start up rails <p class="command_line">ruby script/server  </p>
 </li>
 <li>
-	Check out your app at <a href="http://apps.new.facebook.com/fbtt_dev/">http://apps.new.facebook.com/fbtt_dev/</a>
+	Check out your app at <a href="http://apps.facebook.com//arsebooker_tutorial/">http://apps.facebook.com//arsebooker_tutorial/</a>
 </li>
 
 <li>Now create a view accessible straight from the web and put whatever you want in there. <p>EDIT: app/views/getting_started/add_facebook_application.html.erb</p></li>
-<li> Try from the web <a href="http://staging.meetingwave.com:8888/">http://staging.meetingwave.com:8888/</a>  -- Here you are accessing you app straight from the web!!</li>     
+<li> Try from the web <a href="http://facebookertutorial.professionalnerd.com:3000/">http://facebookertutorial.professionalnerd.com:3000/</a>  -- Here you are accessing you app straight from the web!!</li>     
 
 </ol>            
 
@@ -315,13 +349,13 @@
  
 
 
-<div class="next_lesson"><span>Next Lesson &rarr; <a href="/fbtt_dev/getting_started/user_logs_in_to_facebook">Make User Login</a></span></div> 
+<div class="next_lesson"><span>Next Lesson &rarr; <a href="//arsebooker_tutorial/getting_started/user_logs_in_to_facebook">Make User Login</a></span></div> 
 
 	
 </div>
 
 <div style="margin:auto;width:638px;">
-<a href="http://peepcode.com/products/rails-on-facebook"><img alt="Peepcodead" src="http://digidigo.selfip.net:8888/images/peepcodead.png?1217631817" /></a>
+<a href="http://peepcode.com/products/rails-on-facebook"><img alt="Peepcodead" src="http://facebookertutorial.professionalnerd.com:3000/images/peepcodead.png?1246466531" /></a>
 </div>
 <!-- SOCIAL_MEDIA_AD_TAG -->
 <fb:iframe src="http://ads.socialmedia.com/facebook/monetize.php?width=645&height=60&pubid=25ca46cdb7fcfaf642df081968a31a78" border="0" width="645" height="60" name="socialmedia_ad" scrolling="no" frameborder="0"></fb:iframe>
@@ -333,7 +367,7 @@
 
 <!-- GOOGLE_AD_DIV_TAG -->
 <div id="adspace">
-        <fb:iframe frameborder="0" height="64" scrolling="no" src="http://staging.meetingwave.com:8888/ads/adsense" width="500"></fb:iframe>
+        <fb:iframe frameborder="0" height="64" scrolling="no" src="http://facebookertutorial.professionalnerd.com:3000/ads/adsense" width="500"></fb:iframe>
  </div>
  <!-- GOOGLE_AD_DIV_TAG -->
 
