@@ -16,7 +16,11 @@ module Facebooker
        
       def parse_with_logging(api_method,response)
         unless(RAILS_ENV == "production")
-          RAILS_DEFAULT_LOGGER.debug(" Return value #{response.body}")
+          if response.respond_to?(:body)
+            RAILS_DEFAULT_LOGGER.debug(" Return value #{response.body}")
+          else
+            RAILS_DEFAULT_LOGGER.debug(" Return value #{response}")
+          end
         end
         return parse_without_logging(api_method, response)     
       end
