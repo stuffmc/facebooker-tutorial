@@ -65,6 +65,6 @@ Rails::Initializer.run do |config|
   
 end   
 
-ExceptionNotifier.exception_recipients = %w(digidigo@gmail.com)
+ExceptionNotifier.exception_recipients = %w(jon@professionalnerd.com)
 
 require 'extensions.rb'
