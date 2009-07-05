@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   # See ActionController::RequestForgeryProtection for details
   # Uncomment the :secret if you're not using the cookie session store
-  protect_from_forgery  :secret => '4d961c3ce4cffca315ed3c696e26fffd'
+  # protect_from_forgery  :secret => '4d961c3ce4cffca315ed3c696e26fffd'
   before_filter :setup_lessons
 
   # SAVE_URL_FOR_ADD_AND_LOGIN_TAG
