@@ -4,6 +4,6 @@
 [submodule "vendor/plugins/facebooker"]
 	path = vendor/plugins/facebooker
 	url = git://github.com/mmangino/facebooker.git
-[submodule "vendor/plugins/exception_notification"]
-	path = vendor/plugins/exception_notification
-	url = git://github.com/rails/exception_notification.git
+[submodule "vendor/plugins/facebooker_tutorial"]
+	path = vendor/plugins/facebooker_tutorial
+	url = git://github.com/thoughtbot/hoptoad_notifier.git
